@@ -2,7 +2,8 @@ name: blabla bacon n eggs
 on:
     pull_request:
         branches:
-            - basickarl/gh-actions-pr
+            - develop
+            - main
 
 on: [pull_request]
 
