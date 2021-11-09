@@ -1,0 +1,13 @@
+node_modules
+.env
+.vscode
+/dist/
+/.idea/
+/signalr.iml
+src/generated/**
+.DS_Store
+
+# Tests
+/coverage
+/test-coverage
+/test-report
