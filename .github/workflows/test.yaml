@@ -1,4 +1,4 @@
-name: blabla bacon n eggs
+name: push and pr for file1
 
 on:
   push:

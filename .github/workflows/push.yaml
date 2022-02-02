@@ -1,4 +1,4 @@
-name: push only
+name: push only for file1
 
 on:
   push:
