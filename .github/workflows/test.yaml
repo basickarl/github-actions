@@ -1,17 +1,21 @@
 name: blabla bacon n eggs
-on:
-    pull_request:
-        branches:
-            - basickarl/gh-actions-pr
 
-on: [pull_request]
+on:
+  push:
+    paths:
+      - "folder0/folder1/**"
+      - ".github/workflows/test.yaml"
+  pull_request:
+    paths:
+      - "folder0/folder2/**"
+      - ".github/workflows/test.yaml"
 
 defaults:
-    run:
-        shell: bash
+  run:
+    shell: bash
 
 jobs:
-    somting:
-        runs-on: ubuntu-latest
-        steps:
-            - run: echo "testy"
+  somting:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "testy"
