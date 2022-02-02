@@ -1,10 +1,6 @@
-name: blabla bacon n eggs
+name: pr only
 
 on:
-  push:
-    paths:
-      - "folder0/folder1/**"
-      - ".github/workflows/test.yaml"
   pull_request:
     paths:
       - "folder0/folder1/**"
